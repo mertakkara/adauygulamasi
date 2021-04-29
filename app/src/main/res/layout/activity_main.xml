@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/trenadi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Tren adı"
+            />
+        <EditText
+            android:id="@+id/vagon1kap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 1 kapasitesi"
+            />
+        <EditText
+            android:id="@+id/vagon1kol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 1 dolu koltuk adeti"
+            />
+        <EditText
+            android:id="@+id/vagon2kap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 2 kapasitesi"
+            />
+        <EditText
+            android:id="@+id/vagon2kol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 2 dolu koltuk adeti"
+            />
+        <EditText
+            android:id="@+id/vagon3kap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 3 kapasitesi"
+            />
+        <EditText
+            android:id="@+id/vagon3kol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Vagon 3 dolu koltuk adedi"
+            />
+
+        <EditText
+            android:id="@+id/kisisayisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Kisi sayisi"
+            />
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KisilerFarkliVagonlaraYerlestirilebilir"/>
+        <Button
+            android:id="@+id/btnpost"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:text="Gönder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+        tools:layout_editor_absoluteY="50dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
